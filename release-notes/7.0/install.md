@@ -1,6 +1,6 @@
 # .NET 7 installation instructions
 
-Concise install instructions are provided in this document and may be augmented in [release notes](README.md) for a given update. Complete [.NET installation instructions for Windows, macOS, and Linux](https://docs.microsoft.com/dotnet/core/install/) are provided for supported releases in [.NET documentation](https://docs.microsoft.com/dotnet).
+Concise install instructions are provided in this document and may be augmented in [release notes](README.md) for a given update. Complete [.NET installation instructions for Windows, macOS, and Linux](https://learn.microsoft.com/dotnet/core/install/) are provided for supported releases in [.NET documentation](https://learn.microsoft.com/dotnet).
 
 Operating system specific instructions:
 
@@ -8,32 +8,33 @@ Operating system specific instructions:
 - [macOS](install-macos.md)
 - [Windows](install-windows.md)
 
-## [Using dotnet-install-scripts](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script)
+## [Using dotnet-install-scripts](https://learn.microsoft.com/dotnet/core/tools/dotnet-install-script)
 
-### Install the latest preview version of the 7.0.1xx SDK to the specified location:
+### Install the latest preview version of the 7.0.1xx SDK to the specified location
 
 Windows:
 
-```
+```console
 ./dotnet-install.ps1 -Channel 7.0.1xx -Quality preview -InstallDir C:\cli
 ```
 
 macOS/Linux:
-```
+
+```console
 ./dotnet-install.sh --channel 7.0.1xx --quality preview --install-dir ~/cli
 ```
 
-### Install the latest preview version of the 7.0.0 runtime to the specified location:
+### Install the latest preview version of the 7.0.0 runtime to the specified location
 
 Windows:
 
-```
+```console
 .\.dotnet\dotnet-install.ps1 -Channel 7.0 -Runtime dotnet -Quality preview -InstallDir c:\cli
 ```
 
 macOs/Linux:
 
-```
+```console
 ./dotnet-install.sh --runtime dotnet --channel 7.0 --quality preview --install-dir ~/cli
 ```
 
@@ -54,7 +55,7 @@ Download links are provided for each of the distributions at:
 - [Microsoft .NET website](https://dotnet.microsoft.com/download/dotnet/7.0)
 - [.NET 7 release notes](README.md)
 
-[Container images](https://hub.docker.com/r/microsoft/dotnet/) are provided for Windows (Nano Server, and Server Core) and Linux (Alpine, Debian, and Ubuntu).
+[Container images](https://hub.docker.com/_/microsoft-dotnet) are provided for Windows (Nano Server, and Server Core) and Linux (Alpine, Debian, and Ubuntu).
 
 ## What's installed?
 
