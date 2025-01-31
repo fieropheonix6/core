@@ -1,4 +1,4 @@
-# Linux package dependencies
+# .NET 6 Linux package dependencies
 
 .NET 6 has several dependencies that must be satisfied to run .NET apps. The commands to install these libraries are listed for multiple Linux distributions.
 
@@ -25,6 +25,18 @@ You do not need to install ICU if you [enable globalization invariant mode](http
 
 If your app relies on `https` endpoints, you'll also need to install `ca-certificates`.
 
+## Alpine 3.18 - 3.19
+
+```bash
+sudo apk add \
+    krb5-libs \
+    libgcc \
+    libintl \
+    libssl3 \
+    libstdc++ \
+    zlib
+```
+
 ## Alpine 3.13
 
 ```bash
@@ -35,6 +47,20 @@ sudo apk add \
     libssl1.1 \
     libstdc++ \
     zlib
+```
+
+## Debian 12 "Bookworm"
+
+```bash
+sudo apt-get update \
+    && sudo apt-get install -y --no-install-recommends \
+    libc6 \
+    libgcc1 \
+    libgssapi-krb5-2 \
+    libicu72 \
+    libssl3 \
+    libstdc++6 \
+    zlib1g
 ```
 
 ## Debian 11 "Bullseye"
@@ -63,6 +89,47 @@ sudo apt-get update \
     libssl1.1 \
     libstdc++6 \
     zlib1g
+```
+
+## Ubuntu 24.04 "Noble"
+
+```bash
+sudo apt-get update \
+    && sudo apt-get install -y --no-install-recommends \
+    libc6 \
+    libgcc-s1 \
+    libicu74 \
+    libssl3 \
+    libstdc++6 \
+    zlib1g 
+```
+
+## Ubuntu 23.10 "Mantic"
+
+```bash
+sudo apt-get update \
+    && sudo apt-get install -y --no-install-recommends \
+    libc6 \
+    libgcc-s1 \
+    libgssapi-krb5-2 \
+    libicu72 \
+    libssl3 \
+    libstdc++6 \
+    zlib1g 
+```
+
+## Ubuntu 22.04 "Jammy"
+
+```bash
+sudo apt-get update \
+    && sudo apt-get install -y --no-install-recommends \
+    libc6 \
+    libgcc1 \
+    libgssapi-krb5-2 \
+    libicu70 \
+    libssl3 \
+    libstdc++6 \
+    zlib1g 
 ```
 
 ## Ubuntu 20.04 "Focal"

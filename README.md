@@ -1,25 +1,33 @@
 # .NET Release Notes
 
-The following [.NET releases](../releases.md) are currently supported:
+Welcome to the home of .NET [release notes](./release-notes/README.md) and [news](https://github.com/dotnet/core/discussions/categories/news).
+
+## Releases
+
+[Releases](./releases.md) under active support or development:
 
 |  Version  | Release Date | Support | Latest Patch Version | End of Support |
 | :-- | :-- | :-- | :-- | :-- |
-| [.NET 7](7.0/README.md) | [November, 2022](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-rc-2/) | [Preview][policies] | [7.0 RC 2][7.0 RC 2] | May 14, 2024 |
-| [.NET 6](6.0/README.md) | [November, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6/) | [LTS][policies] | [6.0.10][6.0.10]  | November 12, 2024 |
-| [.NET Core 3.1](3.1/README.md) | [December 3, 2019](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/) | [LTS][policies] | [3.1.30][3.1.30] | December 13, 2022 |
+| [.NET 9](release-notes/9.0/README.md) | November 12, 2024 | [STS][policies] | [9.0.1][9.0.1] | May 12, 2026 |
+| [.NET 8](release-notes/8.0/README.md) | [November 14, 2023](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) | [LTS][policies] | [8.0.12][8.0.12] | November 10, 2026 |
 
-You can find release notes for all releases, including out-of-support releases, in the [release-notes](.) directory.
+[9.0.1]: release-notes/9.0/9.0.1/9.0.1.md
+[8.0.12]: release-notes/8.0/8.0.12/8.0.12.md
+[policies]: release-policies.md
 
-[7.0 RC 2]: release-notes/7.0/preview/7.0.0-rc.2.md
-[6.0.10]: release-notes/6.0/6.0.10/6.0.10.md
-[3.1.30]: release-notes/3.1/3.1.30/3.1.30.md
+* [Release notes](./release-notes/README.md)
+* [Binaries and installers](https://dotnet.microsoft.com/download/dotnet)
+* [Installation docs](https://learn.microsoft.com/dotnet/core/install/)
+* [dotnet-install scripts](https://learn.microsoft.com/dotnet/core/tools/dotnet-install-script)
 
-## Release Information
+## Discussions
 
-* [Download .NET](https://dotnet.microsoft.com/download/dotnet)
-* [Releases Index][releases-index.json] -- Index for all release channels in JSON format
-* [dotnet-install scripts](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script)
-* [Installation docs](https://docs.microsoft.com/dotnet/core/install/)
+Follow [GitHub Discussions](https://github.com/dotnet/core/discussions), where you will find the latest news on releases, including PSAs and CVEs.
 
-[releases-index.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json
-[policies]: ../release-policies.md
+You can subscribe to discussions with the following RSS feeds:
+
+| Category | GitHub Discussions | RSS Feed |
+| --- | :--: | :--: |
+| All Discussions | [🔗](https://github.com/dotnet/core/discussions) | [🔗](https://github.com/dotnet/core/discussions.atom) |
+| News | [🔗](https://github.com/dotnet/core/discussions/categories/news) | [🔗](https://github.com/dotnet/core/discussions/categories/news.atom) |
+| General  | [🔗](https://github.com/dotnet/core/discussions/categories/general) | [🔗](https://github.com/dotnet/core/discussions/categories/general.atom) |
