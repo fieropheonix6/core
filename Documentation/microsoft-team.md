@@ -9,6 +9,10 @@ If you work on or with the .NET Team, you will need to onboard into various GitH
 1. [Join the microsoft/dotnet team](https://repos.opensource.microsoft.com/Microsoft/teams/dotnet/join/)
 1. [Join the dotnet/microsoft team](https://repos.opensource.microsoft.com/dotnet/teams/microsoft/join/)
 
+## Moderation
+
+You will sometimes see issues/PRs/comments that look suspicious/offensive/spammy. We use the "see something, say something" model. Please report content that you think should be addressed or removed to one of our [Moderators](http://aka.ms/dotnet/org).
+
 ## Security best practices
 
 Bad actors try to break into our accounts all the time (see ["failed login attempts" on your account](https://github.com/settings/security-log?q=action%3Auser.failed_login)). You need to apply the following guidance to (A) stay secure, and (B) maintain access to your account.
@@ -16,14 +20,13 @@ Bad actors try to break into our accounts all the time (see ["failed login attem
 Register at least two of the following two-factor authentication methods:
 
 * [GitHub mobile app](https://github.blog/2022-01-25-secure-your-github-account-github-mobile-2fa/)
-* [Hardware security key(s)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key) (also see [yubikey](https://www.yubico.com/works-with-yubikey/catalog/github/))
-* [TOTP with an Authenticator app](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-mobile-app) (like [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a))
-
+* [Hardware security key(s)](https://docs.github.com/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key) (also see [yubikey](https://www.yubico.com/works-with-yubikey/catalog/github/))
+* [TOTP with an Authenticator app](https://docs.github.com/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-mobile-app) (like [Microsoft Authenticator](https://support.microsoft.com/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a))
 
 Additional guidance:
 
 * Do not use [SMS](https://en.wikipedia.org/wiki/SIM_swap_scam) for 2FA or as a recovery fallback (disable those options).
-* Store [recovery codes](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods) in a safe place, like [OneDrive Vault](https://www.microsoft.com/microsoft-365/onedrive/personal-vault), 2FA-protected OneNote or in a password vault like 1Password.
+* Store [recovery codes](https://docs.github.com/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods) in a safe place, like [OneDrive Vault](https://www.microsoft.com/microsoft-365/onedrive/personal-vault), 2FA-protected OneNote or in a password vault like 1Password.
 
 Note: If you completely lose access to login to your account, GitHub support will not be able to recover your account. That's why all of these options are covered.
 
@@ -56,7 +59,6 @@ A few more notes on hardware keys:
   * Set `@Microsoft` as your **Company**,
   * Upload your **picture**, ideally showing your face.
     * Hint: You can grab your GAL picture from <https://microsoft-my.sharepoint.com>.
- * Easily identify other Microsoft employees with our [browser extension](https://docs.opensource.microsoft.com/tools/browser.html)
 
 ## Get write permissions to repos (optional)
 
